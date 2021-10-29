@@ -1,13 +1,13 @@
 # Frees : Weather - JS 
 
-- https://vigorous-perlman-3e6bc6.netlify.app/
+- https://yhekim.github.io/Weather-JS/
 
-- https://yhekim.github.io/IOS-Calculator-JS/
+- https://heuristic-shirley-77814f.netlify.app/
 
 ## Description
 Project aims to create a Weather.
 
-![gif](https://raw.githubusercontent.com/yhekim/IOS-Calculator-JS/main/ios-calculator.gif)
+![gif](https://raw.githubusercontent.com/yhekim/Weather-JS/main/hava-durumu-JS.gif)
 
 
 ### At the end of the project, following topics are to be covered;
