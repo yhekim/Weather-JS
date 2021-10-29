@@ -1,5 +1,7 @@
 const url = "https://api.openweathermap.org/data/2.5/";
 const key = "5269485d20180ba618280f38a6f368b5";
+var check = document.querySelector(".check");
+console.log(check)
 const setQuery = (e) => {
     if (e.keyCode == '13') { //burası basılan değer enter demektir
         getResult(searchBar.value)
@@ -38,4 +40,7 @@ const displayResult = (weather) => {
 
 const searchBar = document.getElementById("searchBar");
 
-searchBar.addEventListener("keypress", setQuery)
+searchBar.addEventListener("keypress", setQuery);
+check.addEventListener("click", () => {
+    getResult(searchBar.value);
+});
